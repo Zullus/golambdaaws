@@ -10,7 +10,7 @@ import (
 	"github.com/satori/go.uuid"
 )
 
-var db = dynamodb.New(session.New(), aws.NewConfig().WithRegion("sa-east-1"))
+var db = dynamodb.New(session.New(), aws.NewConfig().WithRegion("us-west-2"))
 
 const tableName = "go-serverless-api"
 
